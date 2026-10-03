@@ -30,7 +30,7 @@ This file never leaves your computer. The app does not send it anywhere.
 
 ## 4. What the app changes on your computer
 
-When you press "Apply Cursor", the app asks Windows to replace your mouse pointer images with the cursor you selected. It does not read your files, your screen, your keystrokes, or your mouse movements. Pressing "Reset to Windows default" (or closing the app with "Restore default on exit" ticked) puts your normal Windows cursors back.
+When you press "Apply Cursor", the app asks Windows to replace your mouse pointer images with the cursor you selected. It does not read your files, your screen, your keystrokes, or your mouse movements. If "Keep cursor after restart" is on, the app also copies the chosen cursor file to %APPDATA%\CursorZone\cursors and writes its location to your Windows user settings (registry key HKEY_CURRENT_USER\Control Panel\Cursors) so the cursor stays after you restart. Before doing this, it saves a backup of your original cursor settings at %APPDATA%\CursorZone\original_cursors.json. Pressing "Reset to Windows default" (or closing the app with "Restore default on exit" ticked) puts your normal Windows cursors back.
 
 ## 5. Third parties
 
@@ -48,19 +48,18 @@ You can remove everything the app has stored by deleting the folder:
 
 %APPDATA%\CursorZone
 
-Uninstalling or deleting the app folder removes the app itself.
+Before uninstalling, press "Reset to Windows default" in the app so your original cursors come back. Uninstalling or deleting the app folder removes the app itself.
 
 ## 8. Changes to this policy
 
 If the app changes in a way that affects your privacy (for example, if online features are ever added), this policy will be updated and the effective date above will change.
 
- powered by ALFAx
-
 ## 9. Contact
 
 If you have questions about this policy, contact:
+ 
+powered by ALFAx 
 
-H M THARUNDU LAKMAL KUMARASINHA
+H M T lakmal kumarasinha 
 G H Tharusha Perera
 cursorapp898@gmail.com
- 
