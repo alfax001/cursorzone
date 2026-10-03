@@ -1,7 +1,8 @@
-
 # Cursor Zone
 
 Neon mouse cursors for Windows. Pick a cursor, press Apply, done.
+
+*Powered by **ALFAx***
 
 ## Download
 Go to **Releases** (right side) and download `CursorZone_Setup.exe`.
@@ -20,3 +21,6 @@ Coming in the next update: Auto Cursor Clicker.
 Follow on TikTok: https://www.tiktok.com/@cursor.zone
 
 Contact: cursorapp898@gmail.com
+
+---
+Powered by ALFAx
