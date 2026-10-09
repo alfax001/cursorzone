@@ -1,8 +1,8 @@
 # Privacy Policy for Cursor Zone
 
-Effective date: October 1, 2026
+Effective date: October 10, 2026
 
-Cursor Zone ("the app") is a free desktop program for Windows that lets you change your mouse cursor. Your privacy matters, so the app is built to work fully on your own computer.
+Cursor Zone ("the app"), made by ALFAx, is a free desktop program for Windows that lets you change your mouse cursor. Your privacy matters, so the app is built to work fully on your own computer.
 
 ## 1. Short version
 
@@ -24,13 +24,19 @@ It contains only:
 - the last cursor you picked
 - the cursor size you chose (32, 48 or 64 px)
 - whether you chose "Normal pointer" or "All pointers"
-- your two checkbox choices (restore default on exit, apply last cursor on start)
+- your checkbox choices (keep cursor after restart, restore default on exit, apply last cursor on start)
 
 This file never leaves your computer. The app does not send it anywhere.
 
 ## 4. What the app changes on your computer
 
-When you press "Apply Cursor", the app asks Windows to replace your mouse pointer images with the cursor you selected. It does not read your files, your screen, your keystrokes, or your mouse movements. If "Keep cursor after restart" is on, the app also copies the chosen cursor file to %APPDATA%\CursorZone\cursors and writes its location to your Windows user settings (registry key HKEY_CURRENT_USER\Control Panel\Cursors) so the cursor stays after you restart. Before doing this, it saves a backup of your original cursor settings at %APPDATA%\CursorZone\original_cursors.json. Pressing "Reset to Windows default" (or closing the app with "Restore default on exit" ticked) puts your normal Windows cursors back.
+When you press "Apply Cursor", the app asks Windows to replace your mouse pointer images with the cursor you selected. It does not read your files, your screen, your keystrokes, or your mouse movements.
+
+If "Keep cursor after restart" is on, the app also copies the chosen cursor file to %APPDATA%\CursorZone\cursors and writes its location to your Windows user settings (registry key HKEY_CURRENT_USER\Control Panel\Cursors) so the cursor stays after you restart. Before doing this, it saves a backup of your original cursor settings at %APPDATA%\CursorZone\original_cursors.json.
+
+Pressing "Reset to Windows default" (or closing the app with "Restore default on exit" ticked) puts your normal Windows cursors back.
+
+In the Microsoft Store version, "Keep cursor after restart" is not available, and the cursor lasts until Windows restarts.
 
 ## 5. Third parties
 
@@ -57,9 +63,9 @@ If the app changes in a way that affects your privacy (for example, if online fe
 ## 9. Contact
 
 If you have questions about this policy, contact:
- 
-powered by ALFAx 
 
-H M T lakmal kumarasinha 
+Powered by ALFAx
+
+H M T Lakmal Kumarasinha
 G H Tharusha Perera
 cursorapp898@gmail.com
